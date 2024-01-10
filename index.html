@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Home</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@400;700&family=M+PLUS+Rounded+1c&family=Orbitron:wght@400;700&family=Ubuntu&display=swap"
+      rel="stylesheet"
+    />
+    <link class="css-link" rel="stylesheet" href="styles/style.css" />
+  </head>
+  <body class="mainpage-body">
+    <header class="nav-bar">
+      <a href="index.html">
+        <button class="nav-button">Home</button>
+      </a>
+      <a href="Portfolio.html">
+        <button class="nav-button">Portfolio</button>
+      </a>
+      <a href="Qualifications.html">
+        <button class="nav-button">Qualifications</button>
+      </a>
+      <a href="Service.html"> <button class="nav-button">Service</button></a>
+      <a href="AIGenerated.html">
+        <button class="nav-button" onclick="toggleHTML()">Contact</button></a
+      >
+    </header>
+    <button class="toggle" onclick="toggleTheme()">Change Me</button>
+
+    <div class="landing-page">
+      <div class="landing-scene">
+        <!-- <img class="home-img grow" src="images/mainpage-background.jpg" /> -->
+        <p class="name">Yuqian Cao</p>
+      </div>
+
+      <div class="content">
+        <img
+          class="profile-img"
+          src="images/Profile.jpg"
+          alt="Profile Picture"
+        />
+        <p class="intro">
+          Hello!
+          <br />My name is Rain and I am a computer science student passionate
+          in software development.
+        </p>
+      </div>
+    </div>
+    <script type="text/javascript" src="index.js"></script>
+  </body>
+</html>

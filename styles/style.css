@@ -1,0 +1,430 @@
+.mainpage-body {
+  background-color: rgb(0, 0, 0);
+  margin: 0px;
+  color: white;
+}
+
+.toggle {
+  color: rgb(100, 149, 206);
+  background-color: white;
+  padding: 5px;
+  font-family: "Ubuntu";
+  border-radius: 2px;
+  position: fixed;
+  top: 20px;
+  left: 20px;
+  z-index: 200;
+  cursor: pointer;
+}
+
+body {
+  color: white;
+}
+.nav-bar {
+  position: fixed;
+  right: 20px;
+  top: 10px;
+  z-index: 100;
+}
+
+.nav-button {
+  margin-left: 20px;
+  margin-top: 10px;
+  padding: 10px;
+  border-radius: 4px;
+  font-family: Roboto;
+  font-size: 16px;
+  cursor: pointer;
+  /* box-shadow: inset 1px 2px 3px rgba(40, 40, 40, 0.05); */
+}
+
+.title {
+  font-family: "Ubuntu", sans-serif;
+  font-size: 60px;
+  margin-left: 70px;
+  margin-top: 70px;
+  margin-bottom: 40px;
+}
+
+/* Qualification */
+.qualifications-body {
+  background-image: url("../images/service.png");
+  background-size: cover;
+
+  animation: fadeInAnimation ease 1s;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+}
+
+@keyframes fadeInAnimation {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.q-section {
+  margin-bottom: 75px;
+}
+
+.q-subtitle {
+  font-family: "Ubuntu", sans-serif;
+  font-size: 40px;
+  margin-left: 70px;
+  margin-top: 0px;
+  margin-bottom: 30px;
+}
+
+.resume {
+  margin-left: 120px;
+  margin-bottom: 20px;
+  margin-top: 40px;
+  width: 50vw;
+  border: 10px solid rgb(104, 149, 205);
+}
+
+.download-resume {
+  margin-left: 120px;
+  border-radius: 6px;
+  padding-top: 6px;
+  padding-bottom: 6px;
+  cursor: pointer;
+}
+/* .object {
+    margin-left: 120px;
+    margin-bottom: 20px;
+    margin-top: 40px;
+  } */
+
+.skills {
+  display: grid;
+  /* grid-template-columns: 2fr 3fr; */
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  margin-right: 70px;
+}
+.interests {
+  display: grid;
+  grid-template-columns: 2fr 3fr;
+  margin-right: 70px;
+}
+
+.q-list {
+  list-style-type: square;
+  margin-left: 95px;
+  line-height: 2;
+  font-size: 20px;
+  font-family: "Comfortaa", cursive;
+}
+
+.q-list-title {
+  font-size: 25px;
+  margin-left: -18px;
+}
+
+/* .tall {
+    line-height: 4;
+    margin-top: -2px;
+  } */
+
+.skill-description,
+.interest-description {
+  font-size: 20px;
+  /* font-family: "Courier New", Courier, monospace; */
+  font-family: "Comfortaa", cursive;
+  line-height: 2;
+  margin-left: 40px;
+}
+
+/* AI */
+.contact-body {
+  background-image: url("../images/blue-black.jpeg");
+  background-size: cover;
+
+  animation: fadeInAnimation ease 1s;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+}
+
+@keyframes fadeInAnimation {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+/* 
+  .subtitle {
+    font-family: "Ubuntu", sans-serif;
+    font-size: 40px;
+    margin-left: 70px;
+    margin-top: 0px;
+    margin-bottom: 50px;
+  }
+  
+  .contact-info {
+    font-size: 30px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-left: 140px;
+    margin-bottom: 70px;
+    color: inherit;
+    display: block;
+  } */
+
+/* Style the main contact section */
+.contact-section {
+  text-align: center;
+  padding: 100px 20px 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center; /* Center the boxes horizontally */
+}
+
+/* Style the box for each category */
+.contact-box {
+  text-align: center;
+  padding: 20px;
+  background-color: #fff; /* Set box background color */
+  border: 1px solid #ccc; /* Add a border for each box */
+  border-radius: 5px; /* Add rounded corners */
+  min-width: 200px;
+  margin: 0 20px; /* Maintain the original margin */
+}
+
+/* Center the text horizontally and vertically within each category box */
+.contact-subtitle {
+  font-size: 24px; /* Set your desired font size */
+  color: #555; /* Set subtitle color */
+  display: flex;
+  align-items: center; /* Align icon and text vertically */
+  justify-content: center; /* Center text horizontally */
+}
+
+/* Style the icon elements */
+.contact-subtitle i {
+  margin-right: 10px; /* Add spacing between icon and text */
+  font-size: 24px; /* Set icon size */
+  line-height: 1; /* Center the icon vertically */
+}
+
+/* Style the information lines */
+.contact-info {
+  font-size: 18px; /* Set your desired font size */
+  color: #777; /* Set information text color */
+  margin-top: 10px; /* Add spacing above each information line */
+}
+
+/* Landing */
+.mainpage-body {
+  background-image: url("../images/main-background-1.png"),
+    url("../images/black-blueonright.jpg");
+  background-size: contain, contain;
+  background-repeat: no-repeat, repeat;
+}
+
+.landing-page {
+  display: grid;
+  grid-template-rows: 100vh 94vh;
+  row-gap: 50px;
+}
+
+.landing-scene {
+  position: relative;
+}
+
+.home-img {
+  opacity: 0.7;
+  animation-duration: 3s;
+  width: 100%;
+  opacity: 0.7;
+}
+
+.grow {
+  animation-name: grow;
+}
+
+@keyframes grow {
+  from {
+    width: 10%;
+    margin-left: 40%;
+    margin-top: 20%;
+  }
+
+  to {
+    width: 100%;
+    margin: 0%;
+    padding: 0%;
+  }
+}
+
+.name {
+  color: white;
+  position: absolute;
+  left: 30%;
+  top: 25%;
+  font-size: 100px;
+  font-family: "Comfortaa", cursive;
+  animation: fadeIn 3s;
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+.content {
+  display: grid;
+  grid-template-columns: 40vw 1fr;
+  align-items: center;
+}
+.intro {
+  font-family: "Comfortaa", cursive;
+  font-size: 40px;
+  margin-left: 70px;
+  margin-right: 70px;
+  line-height: 2;
+  display: inline-block;
+  margin-top: 0px;
+}
+.profile-img {
+  width: 70%;
+  margin-left: 10vw;
+  /* margin-top: 12vh; */
+  margin-bottom: 40px;
+}
+
+/* Portfolio */
+
+.portfolio-body {
+  background-image: url("../images/background-img.avif"),
+    url("../images/background-bottom.png");
+  background-size: contain, contain;
+  background-repeat: no-repeat, repeat;
+
+  animation: fadeInAnimation ease 1s;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+}
+
+@keyframes fadeInAnimation {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+.stars {
+  display: none;
+}
+.subtitle {
+  font-family: "Ubuntu", sans-serif;
+  font-size: 40px;
+  margin-left: 70px;
+  margin-top: 0px;
+  margin-bottom: 50px;
+}
+strong {
+  font-weight: bold;
+}
+.projects,
+.experiences,
+.leaderships {
+  margin-left: 70px;
+  margin-right: 70px;
+  font-family: "Comfortaa", cursive;
+  margin-bottom: 100px;
+  border-bottom-width: 1px;
+  border-bottom-style: solid;
+  border-bottom-color: white;
+}
+.project,
+.experience,
+.leadership {
+  margin-bottom: 50px;
+}
+.project-title,
+.experience-title,
+.leadership-title {
+  font-size: 25px;
+}
+.project-first-line {
+  display: grid;
+  grid-template-columns: 1fr 70px;
+}
+a {
+  color: inherit; /* blue colors for links too */
+  text-decoration: inherit; /* no underline */
+}
+.project-info,
+.experience-info,
+.leadership-info {
+  list-style-type: square;
+  line-height: 2;
+}
+.github-link {
+  height: 35px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  border-radius: 10px;
+  font-family: "Comfortaa", cursive;
+  font-size: 13px;
+  cursor: pointer;
+}
+
+/* Service */
+.service-body {
+  background-image: url("../images/qualifications.jpeg");
+  background-size: cover;
+
+  animation: fadeInAnimation ease 1s;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+}
+
+@keyframes fadeInAnimation {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.subtitle {
+  font-family: "Ubuntu", sans-serif;
+  font-size: 30px;
+  margin-left: 70px;
+  margin-top: 0px;
+  margin-bottom: 30px;
+}
+.section {
+  margin-left: 70px;
+  margin-right: 70px;
+  font-family: "Comfortaa", cursive;
+  margin-bottom: 70px;
+}
+.list {
+  list-style-type: square;
+  margin-left: 25px;
+  line-height: 2;
+  font-size: 20px;
+  font-family: "Comfortaa", cursive;
+}
+
+.service-img {
+  display: none;
+}
+
+.service-subtitle {
+  font-family: "Ubuntu", sans-serif;
+  font-size: 40px;
+  margin-left: 70px;
+  margin-top: 0px;
+  margin-bottom: 50px;
+}

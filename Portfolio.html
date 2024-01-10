@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@400;700&family=M+PLUS+Rounded+1c&family=Orbitron:wght@400;700&family=Ubuntu&display=swap"
+      rel="stylesheet"
+    />
+
+    <link class="css-link" rel="stylesheet" href="styles/style.css" />
+    <script type="text/javascript" src="index.js"></script>
+  </head>
+  <body class="portfolio-body">
+    <header class="nav-bar">
+      <a href="index.html">
+        <button class="nav-button">Home</button>
+      </a>
+      <a href="Portfolio.html">
+        <button class="nav-button">Portfolio</button>
+      </a>
+      <a href="Qualifications.html">
+        <button class="nav-button">Qualifications</button>
+      </a>
+      <a href="Service.html"> <button class="nav-button">Service</button></a>
+      <a href="AIGenerated.html">
+        <button class="nav-button" onclick="toggleHTML()">Contact</button></a
+      >
+    </header>
+
+    <button class="toggle" onclick="toggleTheme()">Change Me</button>
+
+    <div class="title">Portfolio</div>
+    <section class="portfolio-section">
+      <div class="subtitle subtitle-project"><u>Projects</u></div>
+      <div class="projects">
+        <div class="project project-1">
+          <div class="lines">
+            <div class="line-1"></div>
+            <div class="line-1-1"></div>
+            <div class="line-2"></div>
+            <div class="line-2-2"></div>
+            <div class="line-3"></div>
+            <div class="line-4"></div>
+          </div>
+          <div class="project-first-line">
+            <p class="project-title">
+              <strong>Budget Lifeguard</strong> | Project Manager, Lead
+              Programmer
+            </p>
+            <button
+              class="github-link"
+              onclick="window.location.href='https://github.com/aggie-coding-club/Broke'"
+            >
+              Github
+            </button>
+          </div>
+          <p class="date date-project">February 2023 - May 2023</p>
+          <ul class="project-info">
+            <li>
+              Designed and implemented a full stack web app using
+              <strong>Vue, Python, and Flask</strong> that scrapes the web for
+              the cheapest items in the area
+            </li>
+            <li>
+              Delegated teams to front-end and back-end and ensured progress
+              using an <strong>Agile</strong> development workflow
+            </li>
+            <li>
+              Employed a divide-and-conquer strategy to phase the project over
+              10 weeks to meet a delivery deadline
+            </li>
+          </ul>
+        </div>
+
+        <div class="project project-2">
+          <div class="lines">
+            <div class="line-1 line-1-p"></div>
+            <div class="line-1-1 line-1-1-p"></div>
+            <div class="line-2 line-2-p"></div>
+            <div class="line-2-2 line-2-2-p"></div>
+            <div class="line-3-2"></div>
+            <div class="line-4-2"></div>
+          </div>
+          <div class="project-first-line">
+            <p class="project-title">
+              <strong>Medicine Storage Simpler</strong> | Personal Project
+            </p>
+            <button
+              class="github-link"
+              onclick="window.location.href='https://github.com/yuqian-cao-19/MedicineStorageSimpler'"
+            >
+              Github
+            </button>
+          </div>
+          <p class="date date-project">December 2022 - January 2023</p>
+          <ul class="project-info">
+            <li>
+              Constructed an inventory tracking program for an acupuncture
+              business to improve organization, reducing a manual 3-hour process
+              into seconds
+            </li>
+            <li>
+              Crafted an intuitive UI design for the frontend using
+              <strong>QT</strong> framework in <strong>C++</strong>
+            </li>
+          </ul>
+        </div>
+
+        <div class="project project-3">
+          <div class="lines">
+            <div class="line-1"></div>
+            <div class="line-1-1"></div>
+            <div class="line-2"></div>
+            <div class="line-2-2"></div>
+            <div class="line-3-3"></div>
+            <div class="line-4-3"></div>
+          </div>
+          <div class="project-first-line">
+            <p class="project-title">
+              <strong>Data Structure & Algorithm</strong> | School Project
+            </p>
+            <button
+              class="github-link"
+              onclick="window.location.href='https://github.com/yuqian-cao-19/Data-Structure-Algorithms/tree/main'"
+            >
+              Github
+            </button>
+          </div>
+          <p class="date date-project">August 2022 - December 2022</p>
+          <ul class="project-info">
+            <li>
+              Built data structures within the <strong>C++ STL</strong> from
+              scratch while optimizing the asymptotic runtime
+            </li>
+            <li>
+              Applied the data structures learned to program efficient graph,
+              tree and sorting algorithms
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="break"></div>
+      <div class="wrapper-subtitle">
+        <div class="subtitle subtitle-experience"><u>Work Experience</u></div>
+      </div>
+      <div class="experiences">
+        <div class="experience i">
+          <div class="lines">
+            <div class="line-1 line-1-p y"></div>
+            <div class="line-1-1 line-1-1-p y"></div>
+            <div class="line-2 line-2-p y"></div>
+            <div class="line-2-2 line-2-2-p y"></div>
+            <div class="line-3-2 y"></div>
+            <div class="line-4-2 y"></div>
+          </div>
+          <p class="experience-title">
+            <a class="norm" href="https://softinteraction.com/">
+              <strong>Student Research Assistant</strong> | Soft Interaction Lab
+              at Texas A&M University
+            </a>
+          </p>
+
+          <p class="date date-experience">March 2023 - Present</p>
+          <ul class="experience-info">
+            <li>
+              Developed AR/VR apps through <strong>Unity</strong> and
+              <strong>C#</strong> for medical education used in local TAMU
+              facilities
+            </li>
+            <li>
+              Experienced reading other team members’ code, including the
+              interactions between scripts and Unity components
+            </li>
+          </ul>
+        </div>
+
+        <div class="experience i">
+          <div class="lines">
+            <div class="line-1 line-1-p y"></div>
+            <div class="line-1-1 line-1-1-p y"></div>
+            <div class="line-2 line-2-p y"></div>
+            <div class="line-2-2 line-2-2-p y"></div>
+            <div class="line-3-2 y"></div>
+            <div class="line-4-2 y"></div>
+          </div>
+          <p class="experience-title">
+            <a href="https://www.aggienetwork.com/">
+              <strong>IT Assistant</strong> | The Association of Former Students
+            </a>
+          </p>
+          <p class="date">December 2021 - December 2022</p>
+          <ul class="experience-info">
+            <li>
+              Resolved customer issues, upgraded hardware and software;
+              disassembled PCs and wiped hard drives
+            </li>
+            <li>
+              Proactively maintained and repaired printers, projectors, Creston
+              control processors and receivers
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="break-p"></div>
+
+      <div class="subtitle subtitle-leadership"><u>Leadership</u></div>
+      <div class="leaderships">
+        <div class="leadership i">
+          <div class="lines">
+            <div class="line-1 line-1-p g"></div>
+            <div class="line-1-1 line-1-1-p g"></div>
+            <div class="line-2 line-2-p g"></div>
+            <div class="line-2-2 line-2-2-p g"></div>
+            <div class="line-3-2 g"></div>
+            <div class="line-4-2 g"></div>
+          </div>
+          <p class="leadership-title">
+            <a href="https://aggiecodingclub.com/">
+              <strong>Aggie Coding Club</strong></a
+            >
+            <a href="https://github.com/aggie-coding-club">
+              | Project Officer</a
+            >
+          </p>
+          <p class="date date-leadership">November 2022 – Present</p>
+          <ul class="leadership-info">
+            <li>
+              Supervised four projects through providing constructive feedback
+              and resources to their respective project leaders
+            </li>
+            <li>
+              Gained insight to the balance between laissez faire and a more
+              proactive style of supervision
+            </li>
+            <li>
+              Attained an understanding in how an organization of scale 400+
+              members collaborate internally among branches
+            </li>
+          </ul>
+        </div>
+
+        <div class="leadership i">
+          <div class="lines">
+            <div class="line-1 line-1-p g"></div>
+            <div class="line-1-1 line-1-1-p g"></div>
+            <div class="line-2 line-2-p g"></div>
+            <div class="line-2-2 line-2-2-p g"></div>
+            <div class="line-3-2 g"></div>
+            <div class="line-4-2 g"></div>
+          </div>
+          <p class="leadership-title">
+            <strong>Computer Science for Girls</strong> | Founder & President
+          </p>
+          <p class="date date-leadership">November 2019 - May 2021</p>
+          <ul class="leadership-info">
+            <li>
+              Stimulated women representation in computer science: first
+              female-led CS club in the school
+            </li>
+            <li>
+              Overcame difficulties of virtual interactions via online coding
+              platform <strong>Python Turtle</strong>
+            </li>
+            <li>
+              Insight in being solely responsible for a major event, initiate
+              communication, delegation of tasks among officers
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
+  </body>
+</html>
